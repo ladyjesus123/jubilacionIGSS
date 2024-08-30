@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JUBILACION IGSS</title>
+    <link rel="stylesheet" href="estilos.css">
+
+</head>
+<body>
+    <nav>
+        <h1>formulario calculadora de jubilacion IGSS</h1>
+    </nav>
+    <br>
+    <form action="respuestas.html" method="get">
+    <ul>
+        <li>
+            <label>Nombre: </label>
+            <input type="text" id="name" name="name">
+        </li>
+        <li>
+            <label>edad</label>
+            <input type="number" id="edad" name="edad">
+        </li>
+        <li>
+            <label>estado del contrato</label>
+            <select id="select" name="select">
+                <option>vigente</option>
+                <option>No vigente</option>
+              </select>
+        </li>
+        <li>
+            <label>cuotas pagadas</label>
+            <input type="number" id="cuotas" name="cuotas">
+        </li>
+
+        <li>
+            <label>años de servicio</label>
+            <input type="number" id="servicio" name="servicio">
+        </li>
+           
+        <li>
+            <label>Ingrese el promedio de su salario de los ultimos 5 anios:</label>
+            <input type="number" id="anio1" name="anio1">   
+            <input type="number" id="anio2" name="anio2">
+            <input type="number" id="anio3" name="anio3">
+            <input type="number" id="anio4" name="anio4">
+            <input type="number" id="anio5" name="anio5">
+        </li>
+
+        <li class="button">
+            <input type="submit" value="ingresar datos" onclick="getDatos()">
+        </li>
+
+    </ul>
+
+    
+</form>
+<script src="js.js"></script>
+</body>
+</html>

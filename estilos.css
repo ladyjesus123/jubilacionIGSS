@@ -1,0 +1,64 @@
+nav {
+
+    margin: 0 auto;
+    width: 700px;
+    padding: 1em;
+    border: 2px solid black;
+    border-radius: 2em;
+    text-align: center;
+}
+
+
+form {
+    margin: 0 auto;
+    width: 700px;
+    padding: 1em;
+    border: 2px solid red;
+    border-radius: 2em;
+}
+
+form ul {
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+}
+
+form li {
+    margin-top: 10px;    
+}
+
+form label {
+    /*para que se vea ordenado*/
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+button{
+    margin-top: 10px;
+}
+
+.respuestas {
+    margin: 0 auto;
+    width: 700px;
+    padding: 1em;
+    border: 2px solid red;
+    border-radius: 2em;
+    text-align: center;
+}
+
+.respuestas ul {
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+}
+
+.respuestas li {
+    margin-top: 10px;    
+}
+
+span {
+    padding-inline-start: 1em;
+    color: rgb(82, 82, 171); font-weight: bold;
+}
